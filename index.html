@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BENTO</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+      :root {
+        /* ## Colors */
+
+        --Purple-100: hsl(254, 88%, 90%);
+        --Purple-500: hsl(256, 67%, 59%);
+
+        --Yellow-100: hsl(31, 66%, 93%);
+        --Yellow-500: hsl(39, 100%, 71%);
+
+        --White: hsl(0, 0%, 100%);
+        --Black: hsl(0, 0%, 7%);
+      }
+    </style>
+  </head>
+  <body class="font-[DM_Sans]">
+    <main
+      class="py-[36px] px-[16px] bg-[var(--Purple-100)]/40 flex flex-col items-center gap-[30px] w-full md:p-[50px] md:px-[100px] md:grid md:grid-cols-[1fr_3fr] md:items-start"
+    >
+      <div class="w-full flex flex-col items-center gap-[30px] md:order-2">
+        <div
+          class="sec-one flex flex-col items-center gap-[30px] w-full md:grid md:grid-cols-[2fr_1fr] md:items-start"
+        >
+          <div class="flex flex-col items-center gap-[30px] w-full">
+            <div
+              class="card-one bg-[var(--Purple-500)] text-center py-[40px] px-[30px] rounded-[12px] flex flex-col items-center gap-[30px] w-full max-w-[500px] md:max-w-[100%] md:py-[70px]"
+            >
+              <h1
+                class="text-[48px] font-medium leading-[48px] text-[var(--White)] md:text-[60px] md:leading-[55px]"
+              >
+                Social Media <span class="text-[var(--Yellow-500)]">10x</span>
+                <i>Faster</i> with AI
+              </h1>
+              <div class="flex flex-col items-center gap-[10px]">
+                <img
+                  src="/assets/images/illustration-five-stars.webp"
+                  alt=""
+                  class="w-full max-w-[200px]"
+                />
+                <p
+                  class="text-[18px] text-[var(--Yellow-100)] font-normal tracking-[0.5px]"
+                >
+                  Over 4,000 5-star reviews
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="w-full flex flex-col items-center gap-[30px] md:grid md:grid-cols-2 md:items-start"
+            >
+              <div
+                class="card-two bg-[var(--White)] p-[20px] rounded-[12px] flex flex-col items-start gap-[15px] w-full max-w-[500px] md:w-[255.25px] md:pe-0 overflow-hidden md:gap-[20px] md:p-[24px]"
+              >
+                <img
+                  src="/assets/images/illustration-multiple-platforms.webp"
+                  alt=""
+                  class="w-full md:w-[135%] md:max-w-none md:block"
+                />
+
+                <h2
+                  class="text-[26px] font-medium text-[var(--Black)] tracking-[-2px] leading-[24px] md:text-[32px] md:leading-[28px] pe-[40px]"
+                >
+                  Manage multiple accounts and platforms.
+                </h2>
+              </div>
+
+              <div
+                class="card-three px-[20px] pt-[20px] bg-[var(--Yellow-500)] rounded-[12px] flex flex-col items-start gap-[15px] w-full max-w-[500px] h-[215px] overflow-y-hidden md:h-[246.08px] md:gap-[20px] md:pt-[24px]"
+              >
+                <h2
+                  class="text-[26px] font-medium text-[var(--Black)] tracking-[-2px] leading-[24px] md:text-[32px] md:leading-[28px]"
+                >
+                  Maintain a consistent posting schedule.
+                </h2>
+
+                <img
+                  src="/assets/images/illustration-consistent-schedule.webp"
+                  alt=""
+                  class="w-full max-w-[200px] md:max-w-[100%]"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card-four text-center py-[30px] px-[18px] bg-[var(--Purple-100)] rounded-[12px] flex flex-col items-center gap-[24px] w-full max-w-[500px] md:text-start overflow-hidden md:py-[48px] md:pe-0 md:ps-[36px] md:gap-[30px]"
+          >
+            <h2
+              class="text-[26px] font-medium text-[var(--Black)] tracking-[-2px] leading-[24px] md:text-[32px] md:leading-[28px] md:pe-[20px]"
+            >
+              Schedule to social media.
+            </h2>
+
+            <img
+              src="/assets/images/illustration-schedule-posts.webp"
+              alt=""
+              class="w-full md:w-[154%] md:max-w-none md:block md:ms-[132px]"
+            />
+
+            <p
+              class="text-[18px] text-[var(--Black)] font-medium leading-[20px]"
+            >
+              Optimize post timings to publish content at the perfect time for
+              your audience.
+            </p>
+          </div>
+        </div>
+
+        <!-- ================================================================== -->
+
+        <div
+          class="sec-two flex flex-col items-center gap-[30px] w-full md:flex-row-reverse md:items-center md:grid md:grid-cols-[1.15fr_2.5fr] md:items-start"
+        >
+          <div
+            class="card-five text-center bg-[var(--Purple-500)] rounded-[12px] flex flex-col items-center gap-[30px] px-[40px] py-[20px] w-full max-w-[500px] md:order-2 md:flex-row md:max-w-[100%] md:text-start md:gap-0 md:px-[20px] md:py-[27px]"
+          >
+            <img
+              src="/assets/images/illustration-grow-followers.webp"
+              alt=""
+              class="w-full max-w-[220px]"
+            />
+
+            <h2
+              class="text-[30px] font-medium text-[var(--White)] tracking-[-1px] leading-[30px] px-[10px] md:text-[45px] md:leading-[40px]"
+            >
+              Grow followers with non-stop content.
+            </h2>
+          </div>
+
+          <div
+            class="card-six text-start bg-[var(--White)] rounded-[12px] flex flex-col items-start gap-[20px] p-[26px] w-full max-w-[500px] md:order-1 md:pt-[0] md:gap-[30px] md:ps-[30px] md:pb-[40px] md:pt-[6px]"
+          >
+            <div class="flex flex-col items-start">
+              <h2
+                class="text-[48px] font-medium text-[var(--Black)] md:text-[55px]"
+              >
+                >56%
+              </h2>
+
+              <p
+                class="text-[18px] text-[var(--Black)] font-medium md:text-[16px]"
+              >
+                faster audience growth
+              </p>
+            </div>
+
+            <img
+              src="/assets/images/illustration-audience-growth.webp"
+              alt=""
+              class="w-full max-w-[180px]"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- ================================================================== -->
+
+      <div
+        class="sec-three flex flex-col items-center gap-[30px] w-full md:order-1"
+      >
+        <div
+          class="card-seven p-[30px] bg-[var(--Yellow-100)] rounded-[12px] flex flex-col items-start gap-[30px] w-full max-w-[500px] md:px-[40px] md:py-[70px]"
+        >
+          <h2
+            class="text-[30px] font-medium text-[var(--Black)] tracking-[-2px] leading-[28px] md:text-[45px] md:leading-[40px]"
+          >
+            Create and schedule content
+            <span class="text-[var(--Purple-500)]"><i>quicker.</i></span>
+          </h2>
+
+          <img
+            src="/assets/images/illustration-create-post.webp"
+            alt=""
+            class="w-full max-w-[180px] md:max-w-[100%]"
+          />
+        </div>
+
+        <div
+          class="card-eight p-[20px] bg-[var(--Yellow-500)] rounded-[12px] flex flex-col items-start gap-[24px] w-full max-w-[500px] md:gap-[46px]"
+        >
+          <h2
+            class="text-[30px] font-medium text-[var(--Black)] tracking-[-2px] leading-[28px] pe-[20px] md:text-[45px] md:leading-[40px]"
+          >
+            Write your content using AI.
+          </h2>
+
+          <img
+            src="/assets/images/illustration-ai-content.webp"
+            alt=""
+            class="w-full max-w-[180px] md:max-w-[100%]"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
